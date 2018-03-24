@@ -1,0 +1,12 @@
+{
+    "name": "starter-boilercode-ts",
+    "version": "1.0.0",
+    "description": "simple starter typescript project",
+    "scripts": {
+        "start": "http-server -o"
+    },
+    "author": "ponnarasu mahalingam",
+    "devDependencies": {
+        "http-server": "^0.11.1"
+    }
+}
