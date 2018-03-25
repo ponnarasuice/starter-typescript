@@ -6,3 +6,5 @@
 # dependencies
 /node_modules
 
+# dynamic generated js are ignored
+/js
