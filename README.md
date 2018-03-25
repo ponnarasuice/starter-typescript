@@ -21,6 +21,10 @@ instead of references, we can simply use modules.
 type script is new language. we cant use other popular library like jquery directly.
 - there is site who maintains npmjs.com or other sites. we can install in our node_mocule which creates the xxx.d.ts and installs jquery. if we import or reference this d.ts in ts file, we can use all the jquery functions easily
 
+##final words
+in tsconfig- files:'./app.js ' // this will make all the files combine and provide as single file
+tsconfig - for modules lot of configs are available. which module resolver to use etc.
+
 
 
 
