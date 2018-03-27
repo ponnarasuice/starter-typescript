@@ -17,6 +17,15 @@ instead of references, we can simply use modules.
 - modules are not known to browser. some module packagers are required like commonjs, webpacks,etc
 - we need to configure module packages in the code to make out code work. install packagers using npm
 
+##module vs class
+module makes the particulat portion say clas, interface or funciotions in it local scope. it is not available globally. if we want we need to export. 
+we ca nwrite different classes to achieve modularity like module. but they are often globally available. so without referencing, we can include in other files.
+for simple application it is very fine to write classes for modularity or arrangemging code. when code becomes larger, modularity holds good as particular module runs only wjen it is imported. -apdinu sollikranga.
+
+##modules loader
+classes or any file is generally considered as extension of another file. at times reference even not required.when bundled or using files in tsconfig, we can bundled into single file itself.
+But modules comes mainly for modularity or code arrangement. to make it work together, some external js modular loader is required like commonjs, adm,ecma2015 modular loader,etc.
+
 ##type definition
 type script is new language. we cant use other popular library like jquery directly.
 - there is site who maintains npmjs.com or other sites. we can install in our node_mocule which creates the xxx.d.ts and installs jquery. if we import or reference this d.ts in ts file, we can use all the jquery functions easily
