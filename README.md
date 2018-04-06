@@ -1,4 +1,5 @@
 kindly compile the project before execution
+> tsc greeter.ts
 # starter-typescript
 This is just a boiler plate code.
 contains 
